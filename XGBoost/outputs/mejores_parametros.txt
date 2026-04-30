@@ -1,0 +1,28 @@
+=== MEJORES PARAMETROS XGBOOST - TFG RIEGO ===
+
+CLASIFICADOR:
+  n_estimators: 300
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.7
+  colsample_bytree: 0.8
+  min_child_weight: 5
+  gamma: 0.3
+  reg_alpha: 0
+  reg_lambda: 2.0
+  F1 CV: 0.6698
+  F1 test: 0.6899
+
+REGRESOR:
+  n_estimators: 200
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.7
+  colsample_bytree: 0.9
+  min_child_weight: 5
+  gamma: 0.3
+  reg_alpha: 0
+  reg_lambda: 2.0
+  MAE CV: 1.7884 mm
+  MAE test: 2.023 mm
+  R2 test: 0.8829
